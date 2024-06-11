@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mukta", sans-serif;
+    color: #EEEEEE;
+
+}
+
+h1{
+    font-weight: 600;
+}
+.big-div
+{
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5) ;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(10px);
+    
+}   
+
+.whole{
+background-image: url("./assets/final.jpg");
+background-size: cover;
+}
+
+.lost{
+    background-image: url("./assets/lost.jpg");
+    background-size: cover;
+}
