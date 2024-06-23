@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className='whole flex justify-center text-center h-auto w-full'>
-        <div div className='big-div w-1/4 my-10 pt-10 rounded-lg mx-auto h-auto'>
+        <div div className='big-div w-1/4 my-10 pt-10 rounded-lg mx-auto h-auto max-xl:w-auto'>
           <Header />
           <div className='flex justify-center'>
             <Link name="instagram" fb="https://www.instagram.com/dipxnjxn_/" />
